@@ -353,9 +353,10 @@ section {
 }
 
 #logo img {
-    max-height: 50px;
+    max-height: 35px;
     vertical-align: middle;
     margin-right: 15px;
+    
 }
 
 #navigation-logo {

@@ -22,27 +22,27 @@ export class NavigationComponent implements OnInit {
    // this.activetab = this.location.path();
    // console.log(`from ${this.activetab}`);
 
-   <any>$(document).ready(function () {
+//    <any>$(document).ready(function () {
 
-        /*Responsive Navigation*/
-        <any>$('#nav-mobile').html($('#nav-main').html());
-        <any> $('#nav-trigger span').on('click', function() {
-   if (<any>($)('nav#nav-mobile ul').hasClass('expanded')) {
-    <any>$('nav#nav-mobile ul.expanded').removeClass('expanded').slideUp(250);
-    <any>$(this).removeClass('open');
-   } else {
-    <any> $('nav#nav-mobile ul').addClass('expanded').slideDown(250);
-    <any>$(this).addClass('open');
-   }
- });
+//         /*Responsive Navigation*/
+//         <any>$('#nav-mobile').html($('#nav-main').html());
+//         <any> $('#nav-trigger span').on('click', function() {
+//    if (<any>($)('nav#nav-mobile ul').hasClass('expanded')) {
+//     <any>$('nav#nav-mobile ul.expanded').removeClass('expanded').slideUp(250);
+//     <any>$(this).removeClass('open');
+//    } else {
+//     <any> $('nav#nav-mobile ul').addClass('expanded').slideDown(250);
+//     <any>$(this).addClass('open');
+//    }
+//  });
 
- <any>$('#nav-mobile').html( <any>$('#nav-main').html());
- <any>$('#nav-mobile ul a').on('click', function() {
-   if ( <any>$('nav#nav-mobile ul').hasClass('expanded')) {
-    <any>$('nav#nav-mobile ul.expanded').removeClass('expanded').slideUp(250);
-    <any> $('#nav-trigger span').removeClass('open');
-   }
-      });
+//  <any>$('#nav-mobile').html( <any>$('#nav-main').html());
+//  <any>$('#nav-mobile ul a').on('click', function() {
+//    if ( <any>$('nav#nav-mobile ul').hasClass('expanded')) {
+//     <any>$('nav#nav-mobile ul.expanded').removeClass('expanded').slideUp(250);
+//     <any> $('#nav-trigger span').removeClass('open');
+//    }
+//       });
 
 
 
@@ -60,7 +60,7 @@ export class NavigationComponent implements OnInit {
 	// 	}
   // });
   
-   });
+  //  });
    
   } 
   

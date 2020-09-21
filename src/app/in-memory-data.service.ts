@@ -12,7 +12,7 @@ export class InMemoryDataService  implements InMemoryDbService{
     createDb() {
       const users = [
         { id: 11, firstName: 'zion' , lastName: 'williams', email: 'test123@gmail.com', password: 'welcome'},
-        { id: 12, firstName: 'ariunbold' , lastName: 'Lkhamsuren', email: 'zionariunbold@gmail.com', password: '9115'},
+        { id: 12, firstName: 'ariunbold' , lastName: 'Lkhamsuren', email: 'test456@gmail.com', password: 'welcome'},
       ];
       return {users};
     }
